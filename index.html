@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/recapcah_hack/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Recapcha Hack</title>
+  <script type="module" crossorigin src="/recapcah_hack/assets/index-57f5a88a.js"></script>
+  <link rel="stylesheet" href="/recapcah_hack/assets/index-78d35787.css">
+</head>
+
+<body>
+  <div id="sample-imgs">
+    <button>Sample 1</button>
+    <button>Sample 2</button>
+    <button>Sample 3</button>
+    <button>Sample 4</button>
+    <button>Sample 5</button>
+  </div>
+  <div class="img-container">
+    <label for="before">Before</label>
+    <img id="before"/>
+    <input type="file" id="img" name="img" accept="image/*">
+  </div>
+  <div class="img-container">
+    <label for="canvas">After</label>
+    <div id="canvas-container">
+      <canvas id="after"></canvas>
+    </div>
+  </div>
+  
+  <div>OCR result:</div>
+  <div id="result"></div>
+  
+  
+</body>
+
+</html>
