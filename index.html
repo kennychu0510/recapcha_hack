@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./src/style.css">
+  <title>Recapcha Hack</title>
+</head>
+
+<body>
+  <div id="sample-imgs">
+    <button>Sample 1</button>
+    <button>Sample 2</button>
+    <button>Sample 3</button>
+    <button>Sample 4</button>
+    <button>Sample 5</button>
+  </div>
+  <div class="img-container">
+    <label for="before">Before</label>
+    <img id="before"/>
+    <input type="file" id="img" name="img" accept="image/*">
+  </div>
+  <div class="img-container">
+    <label for="canvas">After</label>
+    <div id="canvas-container">
+      <canvas id="after"></canvas>
+    </div>
+  </div>
+  
+  <div>OCR result:</div>
+  <div id="result"></div>
+  <script type="module" src="/src/main.ts"></script>
+  <script type="module" src="/src/loadSample.ts"></script>
+</body>
+
+</html>
