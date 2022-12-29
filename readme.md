@@ -5,3 +5,5 @@
 2. Convert image into black and white.
 3. Removing noise by manipulating neighbor pixels.
 2. Run OCR on cleaned image. 
+
+![](https://github.com/recapcha_hack/recapcha_hack_demo.gif)
