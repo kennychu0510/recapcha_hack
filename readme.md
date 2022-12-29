@@ -6,4 +6,4 @@
 3. Removing noise by manipulating neighbor pixels.
 2. Run OCR on cleaned image. 
 
-![](https://github.com/recapcha_hack/recapcha_hack_demo.gif)
+![demo](https://github.com/kennychu0510/recapcha_hack/recapcha_hack_demo.gif)
